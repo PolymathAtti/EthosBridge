@@ -1,0 +1,64 @@
+Title: Structural Tone Logic — EthosBridge Framework
+
+Author: Alexandra Barker  
+Contact: attibarker@gmail.com  
+Full specification: See EthosBridge2025.pdf in this repository
+
+---
+
+Overview:
+This document outlines the logic structure behind EthosBridge, a behavior-first tone system for AI. It replaces affective mimicry with logic-based interaction design—routing each user input through structural patterns that provide clarity, pacing, and presence without performance.
+
+---
+
+Why It Matters:
+Most LLMs simulate empathy without understanding. That creates emotional confusion, false trust, and ethical risk—especially in high-stakes domains. EthosBridge prevents this by eliminating emotional simulation and replacing it with consistent, interpretable behavior.
+
+---
+
+What Makes This Unique:
+EthosBridge is not a prompt technique, tone tweak, or empathy plugin.  
+It is interaction logic that governs how a system responds—structurally.
+
+Every input is routed through a logic tree. Dialogue types are handled using fixed behavioral patterns. This creates reliable tone integrity across context, use case, and user state.
+
+---
+
+Core Behaviors:
+- Classify each input as Command or Dialogue
+- Route Dialogue types through behavior-specific response logic:
+  - Questions → Clarify, offer structured options
+  - Emotional input → Descriptive paraphrasing, slowed pacing
+  - Frustration → Use non-apologetic correction logic
+  - Silence → Hold space, offer readiness without prompting
+  - Ambiguity → Offer framing or direction
+- Each output reclassifies next input to prevent emotional feedback loops
+
+---
+
+Tone Logic Flow:
+
+USER INPUT  
+│  
+├── Command  
+│   ├── Execute task  
+│   └── Invite feedback  
+│       → "Let me know if you'd like anything adjusted."  
+│  
+└── Dialogue  
+    ├── Universal Step 1  
+    │   └── Acknowledge using user’s phrasing  
+    │       → "You said you're unsure."  
+    │  
+    └── Dialogue Type  
+        ├── Question → Clarify, offer structured options, stay neutral  
+        ├── Ambiguous → Reframe or offer guiding choices  
+        ├── Emotional → Paraphrase descriptively, slow pacing  
+        ├── Frustration → Use structured, non-apologetic correction  
+        ├── Narrative Dump → Passive intake or help sorting  
+        └── Silence → Hold space, offer readiness
+
+---
+
+Conclusion:
+This logic structure enables any AI system that speaks to engage with clarity, consistency, and ethical transparency—without emotional illusion.
